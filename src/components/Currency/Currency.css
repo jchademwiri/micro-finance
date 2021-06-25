@@ -1,0 +1,33 @@
+.input {
+	border: 1px solid #00eeff;
+	border-radius: 0.3em;
+	padding: 0.25rem;
+	width: 7em;
+}
+select {
+	margin-left: 0.5rem;
+}
+.equals {
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.exchange_container {
+	background-color: rgba(40, 50, 52, 0.699);
+	width: 300px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	border-radius: 0.3rem;
+	padding: 20px;
+	margin: 20px;
+}
+
+@media screen and (max-width: 760px) {
+	.exchange_container {
+		/* width: 100%; */
+		display: none;
+	}
+}
