@@ -22,15 +22,15 @@ const Home = () => {
 	};
 	return (
 		<>
-			<Helmet>
+			{/* <Helmet>
 				<meta charSet='utf-8' />
-				<title>Micro Finance - Exchange</title>
+				<title>Micro Finance - Home</title>
 				<link rel='canonical' href='https://playhousemedia.net' />
 				<meta
 					name='description'
 					content='Geting the financial advise you will ever need.'
 				/>
-			</Helmet>
+			</Helmet> */}
 			<Sidebar isOpen={isOpen} toggle={toggle} />
 			<Navbar toggle={toggle} />
 			<Hero />

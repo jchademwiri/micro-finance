@@ -70,7 +70,13 @@ const Footer = () => {
 						</SocialLogo>
 						<WebsiteRights>
 							Micro Finance &copy; {new Date().getFullYear()} All rights
-							reserved.
+							reserved.{' '}
+							<a
+								href='https://playhousemedia.net'
+								target='blank'
+								aria-label='Twitter'>
+								Desgned by Jacob Chademwiri
+							</a>
 						</WebsiteRights>
 						<IconContext.Provider value={{ color: '#fff' }}>
 							<SocialIcons>

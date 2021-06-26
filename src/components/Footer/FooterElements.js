@@ -98,6 +98,12 @@ export const SocialLogo = styled(Link)`
 export const WebsiteRights = styled.small`
 	color: ${light_primary_color};
 	margin-bottom: 16px;
+
+	a {
+		color: ${accent_primary_color};
+		text-decoration: none;
+		cursor: pointer;
+	}
 `;
 
 export const SocialIcons = styled.div`
