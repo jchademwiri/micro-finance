@@ -9,7 +9,8 @@ import {
 } from '../VariablesElements';
 
 export const Nav = styled.nav`
-	background: ${dark_primary_color};
+	background: ${({ scrollNav }) =>
+		scrollNav ? `${dark_primary_color}` : 'transparent'};
 	/* background: transparent; */
 	height: 80px;
 	margin-top: -80px;
@@ -88,6 +89,7 @@ export const NavLinks = styled(LinkS)`
 
 	&.active {
 		border-bottom: 3px solid ${accent_primary_color};
+		color: ${accent_primary_color};
 	}
 `;
 
